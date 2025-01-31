@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Dakwah SMK Infokom Bogor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/infokom.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Audio Control -->
+    <div class="audio-control">
+        <button id="audioButton" class="audio-button">
+            <i class="fas fa-music"></i>
+        </button>
+    </div>
+    <audio id="bgMusic" preload="auto">
+        <source src="assets/sound/sound.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Pembuka Section -->
+    <section id="pembuka" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="greeting-section" data-aos="fade-up">
+                        <h1 class="arabic-greeting">Assalamu'alaikum Warahmatullahi Wabarukatuh</h1>
+                        <div class="greeting-text">
+                            <p>Semoga kita selalu dalam limpahan rahmat dan taufiq Allah Subhanahu Wa Ta'ala.<br>
+                                Aamiin.</p>
+                            <p>Dengan penuh rasa syukur dan harapan, kami atas nama panitia mengundang Bapak/Ibu/Saudara/i sekalian<br>
+                                 dalam acara Dakwah Bersama Infokom <br>
+                                SMK INFOKOM BOGOR Tahun 1446H / 2025M
+                                <br>yang Insya Allah akan diselenggarakan pada :</p>
+                        </div>
+                        <div class="event-details" data-aos="fade-up" data-aos-delay="100">
+                            <p class="event-date">
+                                Selasa<br>
+                                12 Sya'ban 1446 H<br>
+                                11 Februari 2025 M
+                            </p>
+                            <div class="countdown-section">
+                                <h3 class="countdown-title">Menuju Acara</h3>
+                                <div class="countdown-container">
+                                    <div class="countdown-item">
+                                        <div class="countdown-value" id="days">00</div>
+                                        <div class="countdown-label">Hari</div>
+                                    </div>
+                                    <div class="countdown-item">
+                                        <div class="countdown-value" id="hours">00</div>
+                                        <div class="countdown-label">Jam</div>
+                                    </div>
+                                    <div class="countdown-item">
+                                        <div class="countdown-value" id="minutes">00</div>
+                                        <div class="countdown-label">Menit</div>
+                                    </div>
+                                    <div class="countdown-item">
+                                        <div class="countdown-value" id="seconds">00</div>
+                                        <div class="countdown-label">Detik</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="time">08.30 - selesai</p>
+                            <div class="location">
+                                <p>SMK INFOKOM BOGOR<br>
+                                    Jl. Letjen Ibrahim Adjie No.178, RT.03/RW.08, Sindangbarang, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16117</p>
+                            </div>
+                        </div>
+                        <!-- <div class="guest-section" data-aos="fade-up" data-aos-delay="200">
+                            <div class="text-center mb-5" data-aos="fade-down">
+                                <h2 class="section-title">Dakwah Bersama</h2>
+                            </div>
+                            <div class="opening-content" data-aos="fade-up">
+                                <div class="muballigh-content">
+                                    <div class="muballigh-photo">
+                                        <img src="assets/ssss.png" alt="Habib Umar Mutohar" class="img-fluid">
+                                    </div>
+                                    <div class="masyayikh-text">
+                                        Sarah Firdaus
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rundown Section -->
+    <section id="rundown" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="text-center mb-5" data-aos="fade-down">
+                        <h1 class="section-title">Susunan Acara</h1>
+                    </div>
+
+                    <div class="rundown-section" data-aos="fade-up">
+                        <h3 class="rundown-title">Pra-acara</h3>
+                        <div class="rundown-time">Pukul 08.30 - 09.30 WIB</div>
+                        <div class="rundown-list">
+                            <ol>
+                                <li data-aos="fade-right" data-aos-delay="100">Rebana</li>
+                                <li data-aos="fade-right" data-aos-delay="200">Pengkajian Kitab Salaf</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="rundown-section" data-aos="fade-up">
+                        <h3 class="rundown-title">Acara Utama</h3>
+                        <div class="rundown-time">Pukul 09.30 WIB - Selesai</div>
+                        <div class="rundown-list">
+                            <ol>
+                                <li data-aos="fade-right" data-aos-delay="100">Pembukaan</li>
+                                <li data-aos="fade-right" data-aos-delay="150">Sambutan-sambutan</li>
+                                <li data-aos="fade-right" data-aos-delay="200">Sesi Dakwah</li>
+                                <li data-aos="fade-right" data-aos-delay="250">Istirahat</li>
+                                <li data-aos="fade-right" data-aos-delay="300">Sesi Dakwah</li>
+                                <li data-aos="fade-right" data-aos-delay="350">Penutup dan Do'a</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Streaming Section -->
+    <section id="live-stream" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="text-center mb-5" data-aos="fade-down">
+                        <h2 class="section-title">Live Streaming</h2>
+                    </div>
+                    <div class="live-stream-content" data-aos="fade-up">
+                        <div class="stream-info">
+                            <p class="stream-text">Anda dapat bergabung secara virtual melalui live streaming di channel YouTube kami.</p>
+                            <div class="youtube-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <p class="channel-name">SMK INFOKOM</p>
+                            <p class="stream-schedule">Live Streaming akan dimulai pada :
+                                <br>Selasa, 11 Februari 2025<br>Pukul 08.30 WIB</p>
+                        </div>
+                        <div class="stream-buttons">
+                            <a href="http://www.youtube.com/@smkinfokomkotabogor" target="_blank" class="btn btn-youtube">
+                                <i class="fab fa-youtube"></i> Kunjungi Channel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maps Section -->
+    <section id="maps" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="text-center mb-5" data-aos="fade-down">
+                        <h2 class="section-title">Lokasi Acara</h2>
+                    </div>
+                    <div class="maps-content" data-aos="fade-up">
+                        <div class="location-text">
+                            <p>SMK IFOKOM BOGOR</p>
+                            <p>Jl. Letjen Ibrahim Adjie No.178, RT.03/RW.08, Sindangbarang, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16117</p>
+                        </div>
+                        <div class="maps-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5318670378924!2d106.76722699999998!3d-6.580604599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c4f906e40827%3A0x6b93a4462670547c!2sSMK%20Infokom%20Kota%20Bogor!5e0!3m2!1sid!2sid!4v1737947095297!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="maps-buttons">
+                            <a href="https://maps.app.goo.gl/3CiSqnM6a2MaqKBD7" target="_blank" class="btn btn-maps">
+                                <i class="fas fa-map-marker-alt"></i> Buka di Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penutup Section -->
+    <section id="pembuka" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="greeting-section" data-aos="fade-up">
+                        <div class="greeting-text">
+                            <h4>Kehadiran Bapak/Ibu/Saudara/i sekalian sangat kami harapkan untuk keberkahan bersama. 
+                                Semoga kita selalu dalam keadaan sehat lahir dan batin, 
+                                serta diberikan kemudahan untuk hadir dan mengikuti acara dakwah ini. 
+                                Aamiin.</h4>
+                            <h4 class="arabic-greeting">Wassalamu'alaikum Warahmatullahi Wabarukatuh</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="footer-content text-center">
+                    <h3 class="footer-title">Dakwah Bersama Infokom</h3>
+                    <p class="footer-subtitle">SMK INFOKOM BOGOR</p>
+                    <div class="footer-divider"></div>
+                    <!-- <p class="footer-credit">Made <i class="fas fa-heart"></i> by Sarah Firdaus</p> -->
+                    <p class="footer-copyright">&copy; 2025 - Sarah Firdaus. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/audio-control.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: false
+        });
+
+        // Countdown Timer
+        function updateCountdown() {
+            const eventDate = new Date('2025-02-11T16:00:00+07:00').getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
+            document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Highlight active section in navigation
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navButtons = document.querySelectorAll('.nav-button');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navButtons.forEach(button => {
+                button.classList.remove('active');
+                if (button.getAttribute('href').slice(1) === current) {
+                    button.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

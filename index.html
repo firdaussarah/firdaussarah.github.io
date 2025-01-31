@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Dakwah SMK Infokom Bogor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="icon" href="assets/infokom.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <!-- Logo Section -->
+            <div class="logo-section" data-aos="fade-down" data-aos-duration="1000">
+                <div class="logo-frame">
+                    <img src="assets/infokom.png" alt="Logo SMK INFOKOM" class="logo-img">
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <div class="hero-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="bismillah">UNDANGAN</div>
+                
+                <div class="decorative-line"></div>
+                
+                <div class="event-type">Dakwah Bersama Infokom</div>
+                
+                <h1 class="hero-title">
+                    SMK INFOKOM BOGOR
+                </h1>
+                <ul>
+                <div class="date-wrapper">
+                    <div class="date-item">
+                        <span class="date-value">12 Sya'ban 1446 H</span>
+                    </div>
+                    
+                    <div class="date-separator"></div>
+
+                    <div class="date-item">
+                        <span class="date-value">11 Februari 2025 M</span>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <div class="button-frame">
+                        <button class="open-button" onclick="window.location.href='isi_undangan.html'">
+                            <div class="button-content">
+                                <i class="fas fa-envelope-open-text button-icon"></i>
+                                <span class="button-text">Buka</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="watsap-baten"><button onclick="shareToWhatsApp()">Bagikan ke WhatsApp</button></div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+    duration: 800,
+    once: false // Agar animasi bisa dipicu setiap kali elemen terlihat
+});
+
+// Fungsi untuk membagikan undangan ke WhatsApp
+function shareToWhatsApp() {
+    const text = encodeURIComponent("Undangan Dakwah Bersama Infokom");
+    const url = encodeURIComponent("https://firdaussarah.github.io/");
+    const whatsappUrl = `https://api.whatsapp.com/send?text=${text}%20${url}`;
+    window.open(whatsappUrl, '_blank');
+}
+
+
+    </script>
+</body>
+</html>
+
+

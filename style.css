@@ -36,6 +36,13 @@
     background-color: #1EBE5D;
 }
 
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+}
 
 /* Base Styles */
 body {
@@ -74,6 +81,7 @@ body::before {
     padding: 2rem;
     position: relative;
     z-index: 2;
+    
 }
 
 /* Typography */
@@ -218,7 +226,7 @@ body::before {
 .participants-list li {
     margin: 0.5rem 0;
     break-inside: avoid;
-}
+} */
 
 /* Guest Section */
 .guest-section {
@@ -241,15 +249,16 @@ body::before {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid rgba(210, 184, 127, 0.3);
+    border: 5px solid #D4AF37;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     display: block;
-} */
+}
 
 .guest-photo-wrapper {
     display: none;
 }
+
 
 /* Navigation Buttons */
 .nav-buttons {
@@ -672,7 +681,7 @@ body::before {
 /* Isi Undangan Styles */
 .section {
     min-height: 100vh;
-    padding: 4rem 0;
+    padding: 1rem 0;
     position: relative;
     overflow: hidden;
 }
@@ -683,7 +692,7 @@ body::before {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    margin: 2rem auto;
+    margin: 1rem auto;
     max-width: 800px;
 }
 

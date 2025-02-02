@@ -1,26 +1,26 @@
 # firdaussarah.github.io
 
-Undangan Dakwah SMK Infokom
-Proyek ini merupakan bagian dari ujian praktik mata pelajaran kejuruan yang bertujuan untuk membuat website undangan dakwah berbasis web statis. Website ini menampilkan informasi acara dakwah dan memungkinkan pengguna untuk membagikannya melalui WhatsApp.
+Infocom Vocational School Da'wah Invitation
+This project is part of a vocational subject practice exam which aims to create a static web-based missionary invitation website. This website displays information about da'wah events and allows users to share it via WhatsApp.
 
-Fitur Utama
-✅ Tampilan undangan dengan desain elegan dan responsif
-✅ Informasi lengkap tentang acara, termasuk tanggal dan lokasi
-✅ Animasi dengan AOS (Animate On Scroll)
-✅ Tombol bagikan ke WhatsApp
-✅ Musik latar yang bisa dimainkan dan dihentikan
+Key Features
+✅ Invitation display with elegant and responsive design
+✅ Complete information about the event, including date and location
+✅ Animation with AOS (Animate On Scroll)
+✅ Share button to WhatsApp
+✅ Background music that can be played and stopped
 
-Teknologi yang Digunakan
-HTML → Struktur halaman
-CSS → Styling dan tampilan desain
-JavaScript → Interaksi (animasi, tombol musik, dll.)
-Bootstrap → Mempermudah styling dan responsivitas
-AOS.js → Animasi ketika halaman discroll
+Technology Used
+HTML → Page structure
+CSS → Styling and design appearance
+JavaScript → Interaction (animations, music buttons, etc.)
+Bootstrap → Simplifies styling and responsiveness
+AOS.js → Animation when the page is scrolled
 
-Cara Menjalankan
-1. Clone repository ini atau download sebagai ZIP
+How to Run
+1. Clone this repository or download as ZIP
 git clone https://github.com/firdaussarah/firdaussarah.github.io.git
-cd undangan
-2. Buka dengan browser lokal
-- Jika menggunakan VS Code, bisa dengan Live Server
-- Jika menjalankan langsung, cukup klik dua kali index.html
+invitation CD
+2. Open with local browser
+- If you use VS Code, you can use Live Server
+- If running directly, just double click index.html

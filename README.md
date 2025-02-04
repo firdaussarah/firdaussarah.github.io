@@ -1,6 +1,6 @@
 # firdaussarah.github.io
 
-Infocom Vocational School Da'wah Invitation
+Infokom Vocational School Da'wah Invitation
 This project is part of a vocational subject practice exam which aims to create a static web-based missionary invitation website. This website displays information about da'wah events and allows users to share it via WhatsApp.
 
 Key Features

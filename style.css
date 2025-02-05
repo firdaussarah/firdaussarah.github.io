@@ -4,8 +4,8 @@
 
 
 :root {
-    --gradient-dark: #B98F4A;  /* Gold gelap, sedikit lebih coklat */
-    --gradient-light: #F2D76D; /* Gold terang, lebih kuning */
+    --gradient-dark: #a36a0e;  /* Gold gelap, sedikit lebih coklat */
+    --gradient-light: #b09217; /* Gold terang, lebih kuning */
     --primary-color: #A67C2B;  /* Gold tua yang mewah */
     --accent-color: #C88A4D;   /* Aksen emas yang lebih kaya */
     --bg-color: #D8B04D;       /* Emas lembut, lebih warm */
@@ -36,17 +36,9 @@
     background-color: #1EBE5D;
 }
 
-@font-face {
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-}
-
 /* Base Styles */
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--text-color);
     line-height: 1.6;
     background: linear-gradient(135deg, 
@@ -81,7 +73,6 @@ body::before {
     padding: 2rem;
     position: relative;
     z-index: 2;
-    
 }
 
 /* Typography */
@@ -94,7 +85,7 @@ body::before {
 }
 
 .section-title {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     color: var(--gradient-dark);
     margin-bottom: 2.5rem;
@@ -124,7 +115,7 @@ body::before {
     transform: translateX(-50%);
     font-size: 1.5rem;
     color: var(--gradient-dark);
-    background: white;
+    /* background: whitesmoke; */
     padding: 0 10px;
 }
 
@@ -152,12 +143,12 @@ body::before {
 .countdown-value {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--text-color);
+    color: whitesmoke;
 }
 
 .countdown-label {
     font-size: 0.9rem;
-    color: var(--text-color);
+    color: whitesmoke;
 }
 
 /* Audio Control */
@@ -216,7 +207,7 @@ body::before {
     font-size: 1.1rem;
 }
 
-/* .participants-list ol {
+.participants-list ol {
     list-style-position: inside;
     padding: 0;
     columns: 2;
@@ -226,7 +217,7 @@ body::before {
 .participants-list li {
     margin: 0.5rem 0;
     break-inside: avoid;
-} */
+}
 
 /* Guest Section */
 .guest-section {
@@ -249,7 +240,7 @@ body::before {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #D4AF37;
+    border: 5px solid rgba(210, 184, 127, 0.3);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     display: block;
@@ -258,7 +249,6 @@ body::before {
 .guest-photo-wrapper {
     display: none;
 }
-
 
 /* Navigation Buttons */
 .nav-buttons {
@@ -438,7 +428,7 @@ body::before {
 }
 
 .event-type {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     color: var(--accent-color);
     margin: 1.5rem 0;
@@ -448,7 +438,7 @@ body::before {
 }
 
 .hero-title {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 2.8rem;
     color: var(--primary-color);
     line-height: 1.3;
@@ -471,7 +461,7 @@ body::before {
 }
 
 .date-value {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
     color: var(--primary-color);
     font-weight: 500;
@@ -681,7 +671,7 @@ body::before {
 /* Isi Undangan Styles */
 .section {
     min-height: 100vh;
-    padding: 1rem 0;
+    padding: 4rem 0;
     position: relative;
     overflow: hidden;
 }
@@ -692,7 +682,7 @@ body::before {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    margin: 1rem auto;
+    margin: 2rem auto;
     max-width: 800px;
 }
 
@@ -705,8 +695,8 @@ body::before {
 }
 
 .greeting-text {
-    font-family: 'Caveat', cursive;
-    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-color);
     margin-bottom: 2rem;
@@ -720,7 +710,7 @@ body::before {
 }
 
 .event-date {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
     color: var(--gradient-dark);
     margin-bottom: 1.5rem;
@@ -732,7 +722,7 @@ body::before {
 }
 
 .countdown-title {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     color: var(--gradient-dark);
     margin-bottom: 1rem;
@@ -754,7 +744,7 @@ body::before {
 }
 
 .countdown-value {
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
@@ -766,14 +756,14 @@ body::before {
 }
 
 .time {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     color: var(--gradient-dark);
     margin: 1rem 0;
 }
 
 .location {
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     line-height: 1.6;
     color: var(--text-color);
@@ -785,7 +775,7 @@ body::before {
 }
 
 .guest-section h4 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     color: var(--gradient-dark);
     margin-bottom: 1.5rem;
@@ -829,8 +819,8 @@ body::before {
 }
 
 .rundown-title {
-    font-family: 'Caveat', cursive;
-    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
     color: var(--gradient-dark);
     margin-bottom: 1rem;
     padding-left: 1.5rem;
@@ -838,8 +828,8 @@ body::before {
 }
 
 .rundown-time {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     color: var(--text-color);
     margin-bottom: 1.5rem;
     padding: 0.8rem 1.5rem;
@@ -862,8 +852,8 @@ body::before {
 
 .rundown-list ol li {
     counter-increment: rundown-counter;
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     color: var(--text-color);
     margin-bottom: 1rem;
     padding: 1rem 1.5rem;
@@ -971,7 +961,7 @@ body::before {
     position: relative;
 }
 
-/* .peserta-section::before {
+.peserta-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1131,7 +1121,7 @@ body::before {
 
     .event-date {
         font-size: 1.2rem;
-    } */
+    }
 
     .countdown-container {
         gap: 1rem;
@@ -1206,7 +1196,7 @@ body::before {
     }
 }
 
-/* List Participant Styles
+/* List Participant Styles */
 .participant-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -1349,7 +1339,7 @@ body::before {
         padding: 0.3rem;
         margin-top: 0.6rem;
     }
-} */
+}
 
 /* subtitle */
 .subtitle {
@@ -1440,7 +1430,7 @@ body::before {
 }
 
 .masyayikh-text {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     color: var(--text-color);
     text-align: center;
@@ -1513,15 +1503,15 @@ body::before {
 }
 
 .location-text p {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     color: var(--text-color);
     margin-bottom: 0.5rem;
 }
 
 .location-text p:first-child {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--gradient-dark);
     margin-bottom: 1rem;
@@ -1554,8 +1544,8 @@ body::before {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1646,8 +1636,8 @@ body::before {
 }
 
 .stream-text {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     color: var(--text-color);
     margin-bottom: 1.5rem;
 }
@@ -1660,15 +1650,15 @@ body::before {
 }
 
 .channel-name {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     color: var(--gradient-dark);
     margin-bottom: 1.5rem;
 }
 
 .stream-schedule {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     color: var(--text-color);
     margin: 1.5rem 0;
     padding: 1rem;
@@ -1693,8 +1683,8 @@ body::before {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1702,7 +1692,7 @@ body::before {
 .btn-youtube:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    color: #ff6b6b;
+    color: rgb(164, 1, 1);
 }
 
 @keyframes pulse {
@@ -1801,15 +1791,15 @@ body::before {
 }
 
 .footer-title {
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .footer-subtitle {
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
     opacity: 0.9;
 }

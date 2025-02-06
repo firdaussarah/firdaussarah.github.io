@@ -13,6 +13,7 @@
     --bg-color-alt: #F1C27D;   /* Gold pucat, terang */
 }
 
+
 .watsap-baten {
     position: fixed;
     bottom: 20px;
@@ -702,6 +703,14 @@ body::before {
     margin-bottom: 2rem;
 }
 
+.penutup-text h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 8rem;
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
 .event-details {
     background: linear-gradient(135deg, rgba(210, 184, 127, 0.2), rgba(255, 245, 196, 0.2));
     padding: 2rem;
@@ -1197,7 +1206,7 @@ body::before {
 }
 
 /* List Participant Styles */
-.participant-list {
+/* .participant-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -1339,7 +1348,7 @@ body::before {
         padding: 0.3rem;
         margin-top: 0.6rem;
     }
-}
+} */
 
 /* subtitle */
 .subtitle {
@@ -1769,8 +1778,8 @@ body::before {
 /* Footer */
 .footer {
     background: linear-gradient(135deg, var(--gradient-dark), var(--gradient-light));
-    padding: 3rem 0;
-    margin-top: 4rem;
+    padding: 1rem 0;
+    margin-top: 1.5rem;
     color: white;
     position: relative;
     overflow: hidden;
@@ -1829,7 +1838,7 @@ body::before {
 
 .footer-credit i {
     color: #ff6b6b;
-    margin: 0 0.3rem;
+    margin: 0 0.2rem;
     animation: heartbeat 1.5s ease infinite;
 }
 
